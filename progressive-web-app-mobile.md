@@ -18,14 +18,41 @@ Device based mobile application: A dedicated software that is accessed and used 
 
 ## Considerations
 
+Key elements to consider:
+
+- Will the user need to be able to use the application while being offline intermitently?
+- Will the user need to be able to use the application while being offline for an extended period?
+- Will the user need to be able to exchange information with the service provider when using via the application?
+- Will the application require the use of a lot of graphics or storage space?
+- Does the current staff has the necessary knowledge to develop the application?
+- Does the team have access to the necessary tools and development environment to support the chosen solution (PWA or Mobile)?
+
+Procuring custom code vs. internal development
+
+- While the development of the application by a third party may seem faster, the end-to-end duration of procurement processes and the rigidity of properly framing the requirements ahead of time may lead to extra delays.
+  - External development discards an opportunity to build the internal knowledge and capacity to develop and maintain modern web applications and maintain their content in the long term.
+  - When contracting with a third party, the foreground intellectual property (IP), in this case the custom code developed, by default resides with the contractor (see references below). This means that future changes to the code or releasing it as open source is not possible unless sufficient rights are acquired in the contracting agreement. Two main options can be looked into to mitigate this situation:
+    - An exception is requested to TBS so that the foreground IP is acquired by the Crown. This could work but could introduce unnecessary delays and complications.
+    - The custom code is obtained under sufficient terms and conditions to allow the GC to released it as open source, under the licence of its choice. Either the service provider agrees to licence the custom source code under a predetermined licence (MIT, Apache 2.0, etc.) or under terms broad enough to have the code released publicly under a licence of the Crown representative's choice (see Guide on Publishing OSS).
+
+Device-based mobile applications
+
+- Mobile operating systems and devices have independent roadmaps, update schedules and version distribution across the entire market which implies an extensive amount of testing every time there is a change by a third party to remain compliant with the TBS Standard on Optimizing Websites and Applications for Mobile Devices (see References below).
+  - For example, there are currently 4 major Android versions and at least 2 major iOS versions with currently more than 5% market share, meaning that a device based mobile application would need to be compatible with all of them to meet the TBS policy mentioned above.
+- Mobile applications have to be published on curated application stores which are outside the control of the Government of Canada, adding a layer of uncertainty and possibly introducing unexpected delays.
+- On the other hand, a device-based mobile application can use all the hardware features offered by the mobile device operating system which is not the case for a PWA since it is limited to the browser’s features instead. This still allows for a very rich user experience if properly designed.
+
+
 ### User Experience
 
 ||PWA|Mobile|
 |---|---|---|
 |Acquiring the app|Visit the website|Find in application catalogue|
-|Installing the app|Add to home screen|Purchase* and downlad|
+|Installing the app|Add to home screen|Purchase* and download|
 |Using the installed app|Click on the icon|Click on the icon|
 |Uninstalling|Delete the icon|Delete the applicaton from the menu|
+
+*Purchase: if required
 
 ### Government of Canada Obligations
 
