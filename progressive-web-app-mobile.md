@@ -29,6 +29,11 @@ Device based mobile application: A dedicated software that is accessed and used 
 
 ### Development
 
+<!-- markdownlint-disable MD033 -->
+||PWA|Mobile|
+|---|---|---|
+|Programming languages|Mainly HTML, CSS, Javascript<br>Supports other languages and frameworks|Mobile operating system specific:<br><ul><li>iOS: Most popular are Swift, Objective-C but possible to use Javascript and a few other languages</li><li>Android: Java, Kotlin, C#, Python, Dart</li></ul>|
+||||
 
 - Programming languages
   - Web app or PWA can be built with programming languages supported by most modern browsers. A single code base could sufficient to offer the application to all mobile users, in line with the TBS Standard with regards to marketshare of platforms.
