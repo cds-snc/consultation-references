@@ -5,25 +5,21 @@ ref: pwa-mobile
 ---
 ## Context
 
-This document is to identify key considerations when the choice to develop an application is narrowed between:
+This document is to identify key considerations when the choice to develop an application is narrowed down between:
 
 - A device-based mobile application
 - A progressive web application (PWA)
 
 ## Definitions
 
-Web application: A software that is accessed and used via a device's web browser.
-It requires a constant access to the Internet to be used.
+Progressive web application: A web application accessed and used via a web browser, leveraging modern browsers functionalities to offer the user a similar experience as a device based mobile application.
 
-Progressive web application: A software that is accessed and used via a device's web browser.
-It may not require constant access to the Internet to be used, in whole or in part.
-
-Device based mobile application: A software that is accessed and used directly on a mobile device, without the use of a web browser.
-It may not require constant access to the Internet to be used.
+Device based mobile application: A dedicated software that is accessed and used directly on a mobile device operating system.
 
 ## Assumption
 
-Proper user research has been conducted and the need for a dedicated application to provide a service is clear.
+- User research has been conducted and has confirmed the need for a dedicated application to provide the service.
+- Development of the application is necessary because no available tool, product or service that meets the user needs can be found elsewhere.
 
 ## Comparison
 
@@ -51,7 +47,7 @@ Proper user research has been conducted and the need for a dedicated application
 
 - 
 
-### 
+### User
 
 ||WA|PWA|Mobile|
 |---|---|---|---|
