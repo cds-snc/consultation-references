@@ -5,7 +5,7 @@ ref: pwa-mobile
 ---
 ## Context
 
-This document is to identify key considerations when the choice to develop an application is narrowed down between:
+This document is to identify key considerations when the choice to develop an application for mobile devices is narrowed down between:
 
 - A device-based mobile application
 - A progressive web application (PWA)
@@ -16,9 +16,19 @@ Progressive web application: A web application accessed and used via a web brows
 
 Device based mobile application: A dedicated software that is accessed and used directly on a mobile device operating system.
 
-## Comparison
+## Considerations
+
+### User Experience
+
+||PWA|Mobile|
+|---|---|---|
+|Acquiring the app|Visit the website|Find in application catalogue|
+|Installing the app|Add to home screen|Purchase* and downlad|
+|Using the installed app|Click on the icon|Click on the icon|
+|Uninstalling|Delete the icon|Delete the applicaton from the menu|
 
 ### Development
+
 
 - Programming languages
   - Web app or PWA can be built with programming languages supported by most modern browsers. A single code base could sufficient to offer the application to all mobile users, in line with the TBS Standard with regards to marketshare of platforms.
