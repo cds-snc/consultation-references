@@ -27,13 +27,24 @@ Device based mobile application: A dedicated software that is accessed and used 
 |Using the installed app|Click on the icon|Click on the icon|
 |Uninstalling|Delete the icon|Delete the applicaton from the menu|
 
+### Government of Canada Obligations
+
+The application, whether PWA or mobile, must be compliant with the Government of Canada regulations and policies:
+
+- Accessibility
+- Official languages
+- Security
+- Privacy (PIPEDA)
+- Standard on Optimizing Websites and Applications for Mobile Devices
+
 ### Development
 
+Consideration should also be taken with regards to the development specificities.
 <!-- markdownlint-disable MD033 -->
 ||PWA|Mobile|
 |---|---|---|
 |Programming languages|Mainly HTML, CSS, Javascript<br>Supports other languages and frameworks|Mobile operating system specific:<br><ul><li>iOS: Most popular are Swift, Objective-C but possible to use Javascript and a few other languages</li><li>Android: Java, Kotlin, C#, Python, Dart</li></ul>|
-||||
+|Development Environment Operating System|Can be developed on all major operating systems<ul><li>Windows</li><li>macOS</li><li>Linux</li></ul>|Mobile operating system specific:<ul><li>iOS: macOS only<li>Android: all major operating systems<ul><li>Windows</li><li>macOS</li><li>Linux</li></ul></ul>|
 
 - Programming languages
   - Web app or PWA can be built with programming languages supported by most modern browsers. A single code base could sufficient to offer the application to all mobile users, in line with the TBS Standard with regards to marketshare of platforms.
