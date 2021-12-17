@@ -16,11 +16,6 @@ Progressive web application: A web application accessed and used via a web brows
 
 Device based mobile application: A dedicated software that is accessed and used directly on a mobile device operating system.
 
-## Assumption
-
-- User research has been conducted and has confirmed the need for a dedicated application to provide the service.
-- Development of the application is necessary because no available tool, product or service that meets the user needs can be found elsewhere.
-
 ## Comparison
 
 ### Development
