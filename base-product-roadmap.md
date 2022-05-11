@@ -146,6 +146,8 @@ As new needs are surfaced, further technical analysis would be required and feat
 
 This roadmap dives deeper in each primary milestones and explores the needed steps to successfully develop a web based product.
 
+(Work in progress)
+
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": { "primaryColor": "#F6BE00" }, "themeCSS": ".taskText { font-size:13px; font-weight: bold} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 1px 1px 1px black; font-weight: bold;} .taskTextOutsideLeft { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; font-weight: bold;} .section {opacity:0.05} "}}%%
 gantt
