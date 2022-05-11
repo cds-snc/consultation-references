@@ -59,8 +59,8 @@ gantt
 
     section Product Development
 
-    Content Management System (CMS) :active, dev1, 2022-05-15, 31d
-    Technical Options Analysis :2022-05-15, 5d
+    Content Management System (CMS) :active, dev1, 2022-05-20, 30d
+    Technical Options Analysis :2022-05-20, 5d
     Security Assessment          :crit,  5d
     CMS Decision: milestone, 0d
     CMS Deployment      : 20d
