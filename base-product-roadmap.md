@@ -15,7 +15,7 @@
     - [Interactive Functionalities](#interactive-functionalities)
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcccc', 'edgeLabelBackground':'#ffffee', 'tertiaryColor': '#fff0f0', 'fontSize': '20px'}}}%%
 gantt
     title High Level Roadmap
     dateFormat  YYYY-MM-DD
@@ -127,4 +127,3 @@ The product roadmap should provide sufficient work level estimates but not consi
 ### Search
 
 ### Interactive Functionalities
-
