@@ -4,7 +4,7 @@
   - [Product Design](#product-design)
     - [Hypothesis Validation](#hypothesis-validation)
     - [Content Structure](#content-structure)
-    - [Data Vizualisation](#data-vizualisation)
+    - [Data Visualization](#data-visualization)
     - [Advanced Search](#advanced-search)
     - [Interactive Capabilities](#interactive-capabilities)
   - [Product Development](#product-development)
@@ -15,7 +15,7 @@
     - [Interactive Functionalities](#interactive-functionalities)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F6BE00' }, 'themeCSS': ".taskText { font-size:13px; font-weight: bold} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 1px 1px 1px black; font-weight: bold;} .taskTextOutsideLeft { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; font-weight: bold;} .section {opacity:0.05} "}}%%
+%%{init: {"theme": "base", "themeVariables": { "primaryColor": "#F6BE00" }, "themeCSS": ".taskText { font-size:13px; font-weight: bold} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 1px 1px 1px black; font-weight: bold;} .taskTextOutsideLeft { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; font-weight: bold;} .section {opacity:0.05} "}}%%
 gantt
     title High Level Roadmap
     dateFormat  YYYY-MM-DD
@@ -73,7 +73,7 @@ gantt
     Custom Modules                  :5d
     Production Release              :milestone, 0d
 
-    Data Vizualisation              : dev3, after dev2, 30d
+    Data Visualization              : dev3, after dev2, 30d
     Technical Options Analysis      :after dev2, 5d
     Feature Development             :25d
     Production Release              :milestone, 0d
@@ -113,9 +113,9 @@ However, the development team would already be heavily involved in analyzing and
 
 The second milestone would be to design the content structure and validate the changes with end users.
 
-### Data Vizualisation
+### Data Visualization
 
-The third milestone would be to design data vizualisation and validate the proposed changes with end users.
+The third milestone would be to design data Visualization and validate the proposed changes with end users.
 
 ### Advanced Search
 
@@ -154,7 +154,7 @@ If out of the box configurations are not meeting all the needs, additional modul
 
 The third milestone would be to configure the CMS to meet the Visualizations needs identified by the end users.
 
-If out of the box features are not meeting all the requirements, extensive open source vizualisation libraries can be leveraged to ensure rapid prototyping and ensuring flexibility for future needs.
+If out of the box features are not meeting all the requirements, extensive open source Visualization libraries can be leveraged to ensure rapid prototyping and ensuring flexibility for future needs.
 
 ### Search
 
