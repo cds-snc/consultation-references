@@ -15,7 +15,7 @@
     - [Interactive Functionalities](#interactive-functionalities)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F6BE00' }, 'themeCSS': ".section {opacity:0.05} "}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F6BE00' }}}%%
 gantt
     title High Level Roadmap
     dateFormat  YYYY-MM-DD
