@@ -15,7 +15,7 @@
     - [Interactive Functionalities](#interactive-functionalities)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'family-font': '\"Source Sans Pro\", sans-serif', 'primaryColor': '#F6BE00' }, 'themeCSS': ".taskText { font-size:13px;} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; } "}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F6BE00' }, 'themeCSS': ".taskText { font-size:13px; font-weight: bold} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 1px 1px 1px black; font-weight: bold;} .taskTextOutsideLeft { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; font-weight: bold;} .section {opacity:0.05} "}}%%
 gantt
     title High Level Roadmap
     dateFormat  YYYY-MM-DD
