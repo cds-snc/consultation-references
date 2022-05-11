@@ -15,6 +15,7 @@
     - [Interactive Functionalities](#interactive-functionalities)
 
 ```mermaid
+%%{init: {'theme':'base'}}%%
 gantt
     title High Level Roadmap
     dateFormat  YYYY-MM-DD
