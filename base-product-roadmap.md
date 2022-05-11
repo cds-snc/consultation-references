@@ -60,6 +60,7 @@ gantt
     section Product Development
 
     Content Management System (CMS) :active, dev1, 2022-05-20, 30d
+    Technical Team Sync: milestone, 2022-05-20, 0d
     Technical Options Analysis :2022-05-20, 5d
     Security Assessment          :crit,  5d
     CMS Decision: milestone, 0d
@@ -111,6 +112,11 @@ Typically, the following actors will be required for the product design:
 
 - Developers
 - System Administrators
+
+Whoever will be part of the development and operations team must be onboard early on and throughout the entire product development lifecyle.
+Multiple "short projects" can be used to secure internal IT staff's time if the product team does not have developers embedded with them.
+
+The product roadmap should provide sufficient work level estimates but not consist in a business requirements document since short development cycles will be leveraged to course correct based on end users needs and feedback.
 
 ### Content Management System (CMS)
 
