@@ -104,6 +104,7 @@ The reason here is that as the product evolves over time and features are added,
 
 Typically, the following actors will be required for the product design:
 
+- Product Manager
 - Developers
 - System Administrators
 
@@ -111,6 +112,17 @@ Whoever will be part of the development and operations team must be onboard earl
 Multiple "short projects" can be used to secure internal IT staff's time if the product team does not have developers embedded with them.
 
 The product roadmap should provide sufficient work level estimates but not consist in a business requirements document since short development cycles will be leveraged to course correct based on end users needs and feedback.
+
+While the development timelines could be reasonably short in the private sector, there might be some challenges around getting access to development, staging and production environments solely controlled by the product team.
+Most departments will require a separation of duty, typically across different teams, not just individuals, which means that although development could be conducted outside of the production environment, migrating the product in production among other systems will require planning ahead.
+
+As such, a product team would need to properly establish a development pipeline that meets other teams requirements so that back and forth are minimized.
+Some departments may have documentation available or already have built such development pipelines.
+Either way, reaching out to the corporate's IT branch at the beginning of the initiative may identify key requirements to address upfront.
+
+For example, if specific software are acquired, either as an open source component or purchased from a vendor, a Security Assessment and Authorization would be required before it can be used in production.
+
+The risk levels associated to operating a product consisting of various software components need to be assessed so that the department can make an educated decision on whether to grant the product team the Authority to Operate or not.
 
 ### Content Management System (CMS)
 
