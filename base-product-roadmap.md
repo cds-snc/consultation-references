@@ -2,7 +2,7 @@
 
 - [High Level Roadmap](#high-level-roadmap)
   - [Product Design](#product-design)
-    - [Hypothesis Validation](#hypothesis-validation)
+    - [Hypotheses Validation](#hypotheses-validation)
     - [Content Structure](#content-structure)
     - [Data Visualization](#data-visualization)
     - [Advanced Search](#advanced-search)
@@ -25,7 +25,7 @@ gantt
 
     section Product Design
 
-    Hypothesis Validation               : des1, 2022-05-15, 25d
+    Hypotheses Validation               : des1, 2022-05-15, 25d
 
     Content Structure                   : des2, after des1,  30d
     Production Release                  :milestone, mil1, after des2, 0d
@@ -44,7 +44,7 @@ gantt
 
     Content Management System : dev1, 2022-05-20, 30d
     Technical Team Sync: milestone, 2022-05-20, 0d
-    CMS in Production: milestone, after dev1, 0d
+    Production Release: milestone, after dev1, 0d
     
     Presentation Layer              : dev2, after dev1, 20d
     Production Release              :milestone, 0d
@@ -75,9 +75,9 @@ The reason is that although they may require different skills and methodologies,
 
 This means that if the product developers have their substantiary position with an IT branch or a private company, a clear understanding that everyone must work together as a single team is required for a successful Agile delivery of the product.
 
-### Hypothesis Validation
+### Hypotheses Validation
 
-The first milestone would be to validate the hypothesis defined by the product team by conducting a User Experience Research.
+The first milestone would be to validate the hypotheses defined by the product team by conducting a User Experience Research.
 This is considered the Discovery stage.
 
 While a lot of information may be gathered at this step, there wouldn't necessarily be any technical deployment visible to the end users yet.
@@ -158,7 +158,7 @@ gantt
 
     section Product Design
 
-    Hypothesis Validation               :  des1, 2022-05-15, 25d
+    Hypotheses Validation               :  des1, 2022-05-15, 25d
     End Users Recruitment               :2022-05-15, 5d
     User Experience Research            :10d
     UX Report                           :10d
