@@ -102,7 +102,7 @@ The reason here is that as the product evolves over time and features are added,
 
 ## Product Development
 
-Typically, the following actors will be required for the product design:
+Typically, the following actors will be required for the product development:
 
 - Product Manager
 - Developers
@@ -120,9 +120,9 @@ As such, a product team would need to properly establish a development pipeline 
 Some departments may have documentation available or already have built such development pipelines.
 Either way, reaching out to the corporate's IT branch at the beginning of the initiative may identify key requirements to address upfront.
 
-For example, if specific software are acquired, either as an open source component or purchased from a vendor, a Security Assessment and Authorization would be required before it can be used in production.
+For example, if specific software is acquired, either as an open source component or purchased from a vendor, a Security Assessment and Authorization would be required before it can be used in production.
 
-The risk levels associated to operating a product consisting of various software components need to be assessed so that the department can make an educated decision on whether to grant the product team the Authority to Operate or not.
+The risk levels associated with operating a product consisting of various software components need to be assessed so that the department can make an educated decision on whether to grant the product team the Authority to Operate or not.
 
 ### Content Management System (CMS)
 
