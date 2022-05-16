@@ -1,6 +1,13 @@
-# High Level Roadmap
+# High Level Roadmap to Product Management
 
-- [High Level Roadmap](#high-level-roadmap)
+The purpose of this document is to provide a high level roadmap to transition to service and product management.
+A tailored version of this base can be used to match the partner’s operating context.
+
+- [High Level Roadmap to Product Management](#high-level-roadmap-to-product-management)
+  - [Key Concepts](#key-concepts)
+    - [Product Management](#product-management)
+    - [Product Roadmap](#product-roadmap)
+  - [High Level Roadmap](#high-level-roadmap)
   - [GC Product Team](#gc-product-team)
     - [Partnership Creation](#partnership-creation)
     - [Team Setup](#team-setup)
@@ -16,7 +23,36 @@
     - [Visualizations](#visualizations)
     - [Search](#search)
     - [Interactive Functionalities](#interactive-functionalities)
+  - [References](#references)
   - [Detailed Roadmap](#detailed-roadmap)
+
+## Key Concepts
+
+### Product Management
+
+In product management, there is an understanding that continuous improvement is required and that software leveraged as part of its operations is continuously evolving, just as the team and its processes are.
+As such, the underlying software should be seen as a malleable asset that needs to be enhanced, not as a good that will be immutable for many years.
+
+This is different than how typical governmental services are managed, and for product management to be successful in the federal government’s[^1] context, it requires that planning and funding for the entire product, the personnel as well as the tools, be done in a way that supports continuous improvement over the course of the entire life cycle.
+
+The primary cause of friction observed in traditional waterfall methodology is that funding is secured to enhance software once in a big bang approach and then it is assumed that the software will never be touched again until there is another major need for improvement, outside of regular maintenance and patches.
+
+In reality, software has to be maintained and patched but also continuously improved during the entire life cycle of the product or service offered to the end user.
+
+While a major renewal may require a greater upfront investment, subsequent years of operations and continuous improvement should be funded for as well and a multidisciplinary team of dedicated individuals should be established.
+
+The product roadmap offers a way to easily identify the future enhancements anticipated and to justify requesting additional funding and resources from the IT branch in the longer term while keeping a level of flexibility in adapting to the needs of the end users and iterating frequently.
+
+[^1]: See the [References](#references) section for a series of blogs on Product Management at Employment and Social Development Canada
+
+### Product Roadmap
+
+> “A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and progress of a product over time.
+> It’s a plan of action that aligns the organization around short and long-term goals for the product or project, and how they will be achieved.”
+
+_Source: [Product Roadmaps](https://www.atlassian.com/agile/product-management/product-roadmaps), Atlassian Agile Coach_
+
+## High Level Roadmap
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": { "primaryColor": "#F6BE00" }, "themeCSS": ".taskText { font-size:13px; font-weight: bold} .taskTextOutsideRight { font-size:13px; fill: #F6BE00; text-shadow: 1px 1px 1px black; font-weight: bold;} .taskTextOutsideLeft { font-size:13px; fill: #F6BE00; text-shadow: 0.5px 0.5px 0.5px black; font-weight: bold;} .section {opacity:0.05} "}}%%
@@ -189,6 +225,14 @@ While most modern CMS offer out of the box search features, the development team
 The fifth milestone would be further fleshed out by the continuous user feedback throughout the entire length of the product development life cycle.
 
 As new needs are surfaced, further technical analysis would be required and features development planned accordingly.
+
+## References
+
+- [How is the Public Service Managing Large IT Projects?](https://sara-sabr.github.io/ITStrategy/2020/04/21/how-is-the-public-service-managing-large-IT-project.html), Written by My Thuy Pham-Vo, Employment and Social Development Canada
+- [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
+- [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
+- [Transitioning to Product Management by following Job Bank](https://sara-sabr.github.io/ITStrategy/2022/02/04/project-to-product.html), 2022-02-04 - Written by Rémy Bernard, Employment and Social Development Canada
+- [Product Management in the Public Sector](https://codefor.ca/blog/product-management-in-the-public-sector/), 2021-01-04 - Written by Dena Sotoudeh, Code for Canada
 
 ## Detailed Roadmap
 
