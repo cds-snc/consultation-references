@@ -35,7 +35,11 @@ As such, the underlying software should be seen as a malleable asset that needs 
 
 This is different than how typical governmental services are managed, and for product management to be successful in the federal government’s[^1] context, it requires that planning and funding for the entire product, the personnel as well as the tools, be done in a way that supports continuous improvement over the course of the entire life cycle.
 
+[^1]: [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
+
 The primary cause of friction observed in traditional waterfall methodology is that funding is secured to procure, configure and deploy software once in a big bang approach[^2] and then it is assumed that the software will minimally be touched again until there is another major need for improvement, outside of regular maintenance and patches.
+
+[^2]: [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
 
 In reality, software has to be maintained and patched but also continuously improved during the entire life cycle of the product or service offered to the end user.
 
@@ -125,6 +129,8 @@ Large departments have many competing priorities and it may require a lot of pla
 Securing the collaboration through a partnership may be possible if a clear roadmap is established with sufficient funding secured for both the operation of the program as well as its underlying technology continuous improvements.
 
 Inspired from the IT Strategy's team work on Implementing Product Management at Employment and Social Development Canada [^3], securing such a partnership requires an agreement between the program's senior officials, the CFO and the CIO.
+
+[^3]: [Implementing Product Management](https://sara-sabr.github.io/ITStrategy/strategy-product-management.html#seeking-product-status)
 
 ### Team Setup
 
@@ -228,9 +234,9 @@ As new needs are surfaced, further technical analysis would be required and feat
 
 ## References
 
-- [^1]: [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
-- [^2]: [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
-- [^3]: [Implementing Product Management](https://sara-sabr.github.io/ITStrategy/strategy-product-management.html#seeking-product-status)
+- [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
+- [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
+- [Implementing Product Management](https://sara-sabr.github.io/ITStrategy/strategy-product-management.html#seeking-product-status), IT Strategy Team, Employment and Social Development Canada
 - [How is the Public Service Managing Large IT Projects?](https://sara-sabr.github.io/ITStrategy/2020/04/21/how-is-the-public-service-managing-large-IT-project.html), Written by My Thuy Pham-Vo, Employment and Social Development Canada
 - [Transitioning to Product Management by following Job Bank](https://sara-sabr.github.io/ITStrategy/2022/02/04/project-to-product.html), 2022-02-04 - Written by Rémy Bernard, Employment and Social Development Canada
 - [Product Management in the Public Sector](https://codefor.ca/blog/product-management-in-the-public-sector/), 2021-01-04 - Written by Dena Sotoudeh, Code for Canada
