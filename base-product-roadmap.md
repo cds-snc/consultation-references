@@ -35,15 +35,13 @@ As such, the underlying software should be seen as a malleable asset that needs 
 
 This is different than how typical governmental services are managed, and for product management to be successful in the federal government’s[^1] context, it requires that planning and funding for the entire product, the personnel as well as the tools, be done in a way that supports continuous improvement over the course of the entire life cycle.
 
-The primary cause of friction observed in traditional waterfall methodology is that funding is secured to enhance software once in a big bang approach and then it is assumed that the software will never be touched again until there is another major need for improvement, outside of regular maintenance and patches.
+The primary cause of friction observed in traditional waterfall methodology is that funding is secured to procure, configure and deploy software once in a big bang approach[^2] and then it is assumed that the software will minimally be touched again until there is another major need for improvement, outside of regular maintenance and patches.
 
 In reality, software has to be maintained and patched but also continuously improved during the entire life cycle of the product or service offered to the end user.
 
-While a major renewal may require a greater upfront investment, subsequent years of operations and continuous improvement should be funded for as well and a multidisciplinary team of dedicated individuals should be established.
+While a major renewal may sometimes require a greater upfront investment, subsequent years of operations and continuous improvement should also be funded for and a multidisciplinary team of dedicated individuals should be established.
 
 The product roadmap offers a way to easily identify the future enhancements anticipated and to justify requesting additional funding and resources from the IT branch in the longer term while keeping a level of flexibility in adapting to the needs of the end users and iterating frequently.
-
-[^1]: See the [References](#references) section for a series of blogs on Product Management at Employment and Social Development Canada
 
 ### Product Roadmap
 
@@ -122,9 +120,11 @@ This is aligned with the following [Digital Standards](https://www.canada.ca/en/
 This milestone aims to address the gap program branches face when trying to establish product management teams.
 While program teams have their own set of responsibilities related to the mandate of the organization, most IT related functions are provided by a corporate branch, meaning that negotiations on priorities and technology choices have to be made in collaboration.
 
-Large departments have many competing priorities and it may require a lot of planning ahead of getting access to key talent from an IT branch.
+Large departments have many competing priorities and it may require a lot of planning ahead to get access to key talent from an IT branch, further more to maintain those individuals throughout the product's life cycle.
 
 Securing the collaboration through a partnership may be possible if a clear roadmap is established with sufficient funding secured for both the operation of the program as well as its underlying technology continuous improvements.
+
+Inspired from the IT Strategy's team work on Implementing Product Management at Employment and Social Development Canada [^3], securing such a partnership requires an agreement between the program's senior officials, the CFO and the CIO.
 
 ### Team Setup
 
@@ -228,9 +228,10 @@ As new needs are surfaced, further technical analysis would be required and feat
 
 ## References
 
+- [^1]: [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
+- [^2]: [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
+- [^3]: [Implementing Product Management](https://sara-sabr.github.io/ITStrategy/strategy-product-management.html#seeking-product-status)
 - [How is the Public Service Managing Large IT Projects?](https://sara-sabr.github.io/ITStrategy/2020/04/21/how-is-the-public-service-managing-large-IT-project.html), Written by My Thuy Pham-Vo, Employment and Social Development Canada
-- [The Problems with Project-Based funding for IT organizations](https://sara-sabr.github.io/ITStrategy/2021/05/18/problems-of-project-based-funding.html), 2021-05-18 - Written by Rémy Bernard, Employment and Social Development Canada
-- [Implementing Product Management in the Federal Government](https://sara-sabr.github.io/ITStrategy/2021/10/15/product-management-part-2.html), 2021-10-15 - Written by Rémy Bernard, Employment and Social Development Canada
 - [Transitioning to Product Management by following Job Bank](https://sara-sabr.github.io/ITStrategy/2022/02/04/project-to-product.html), 2022-02-04 - Written by Rémy Bernard, Employment and Social Development Canada
 - [Product Management in the Public Sector](https://codefor.ca/blog/product-management-in-the-public-sector/), 2021-01-04 - Written by Dena Sotoudeh, Code for Canada
 
