@@ -72,7 +72,7 @@ gantt
 
 This set of phases has been added specifically with the goal to highlight the key steps to establish a product team in the GC context.
 
-While committees and working groups can be useful to coordinate internal feedback, establishing a core team responsible to drive the development and the continuous improvement of a product would provide faster value with less risks associated to large scale projects.
+While committees and working groups can be useful to coordinate internal feedback, establishing a core team responsible to drive the development and the continuous improvement of a product would provide faster value with less risks associated with traditional technology enabled projects.
 
 This is aligned with the following [Digital Standards](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html):
 
@@ -83,8 +83,8 @@ This is aligned with the following [Digital Standards](https://www.canada.ca/en/
 
 ### Partnership Creation
 
-This milestones aims to address the gap program branches face when trying to establish product management teams.
-While program teams have their own set of responsibilities related to the mandate of the organization, most IT related functions are provided by a corporate branch, meaning that negotations on priorities and technology choices have to be made in collaboration.
+This milestone aims to address the gap program branches face when trying to establish product management teams.
+While program teams have their own set of responsibilities related to the mandate of the organization, most IT related functions are provided by a corporate branch, meaning that negotiations on priorities and technology choices have to be made in collaboration.
 
 Large departments have many competing priorities and it may require a lot of planning ahead of getting access to key talent from an IT branch.
 
