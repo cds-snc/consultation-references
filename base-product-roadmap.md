@@ -1,6 +1,9 @@
 # High Level Roadmap
 
 - [High Level Roadmap](#high-level-roadmap)
+  - [GC Product Team](#gc-product-team)
+    - [Partnership Creation](#partnership-creation)
+    - [Team Setup](#team-setup)
   - [Product Design](#product-design)
     - [Hypotheses Validation](#hypotheses-validation)
     - [Content Structure](#content-structure)
@@ -23,9 +26,14 @@ gantt
     axisFormat  %Y-%m
     excludes    weekends
 
+    section GC Product Team
+
+    Partnership Creation : team1, 2022-05-15, 20d
+    Team Setup : team2, after team1, 15d
+
     section Product Design
 
-    Hypotheses Validation               : des1, 2022-05-15, 25d
+    Hypotheses Validation               : des1, after team2, 25d
 
     Content Structure                   : des2, after des1,  30d
     Production Release                  :milestone, mil1, after des2, 0d
@@ -42,8 +50,8 @@ gantt
 
     section Product Development
 
-    Content Management System : dev1, 2022-05-20, 30d
-    Technical Team Sync: milestone, 2022-05-20, 0d
+    Content Management System : dev1, after team2, 30d
+    Technical Team Sync: milestone, after team2, 0d
     Production Release: milestone, after dev1, 0d
     
     Presentation Layer              : dev2, after dev1, 20d
@@ -59,6 +67,34 @@ gantt
     Production Release              : milestone, 0d
     
 ```
+
+## GC Product Team
+
+This set of phases has been added specifically with the goal to highlight the key steps to establish a product team in the GC context.
+
+While committees and working groups can be useful to coordinate internal feedback, establishing a core team responsible to drive the development and the continuous improvement of a product would provide faster value with less risks associated to large scale projects.
+
+This is aligned with the following [Digital Standards](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html):
+
+- Design with users
+- Iterate and improve frequently
+- Use open standards and solutions
+- Empower staff to deliver better services
+
+### Partnership Creation
+
+This milestones aims to address the gap program branches face when trying to establish product management teams.
+While program teams have their own set of responsibilities related to the mandate of the organization, most IT related functions are provided by a corporate branch, meaning that negotations on priorities and technology choices have to be made in collaboration.
+
+Large departments have many competing priorities and it may require a lot of planning ahead of getting access to key talent from an IT branch.
+
+Securing the collaboration through a partnership may be possible if a clear roadmap is established with sufficient funding secured for both the operation of the program as well as its underlying technology continuous improvements.
+
+### Team Setup
+
+While some developers may be provided by the corporate IT branch, there might not be sufficient availability to meet the desired timelines or the departmental demand.
+
+This means that part of the team might require to be contracted out to the private sector, which could add delays.
 
 ## Product Design
 
