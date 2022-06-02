@@ -24,7 +24,7 @@ Key elements to consider:
 - Will the user need to be able to use the application while being offline for an extended period?
 - Will the user need to be able to exchange information with the service provider when using via the application?
 - Will the application require the use of a lot of graphics or storage space?
-- Does the current staff has the necessary knowledge to develop the application?
+- Does the current staff have the necessary knowledge to develop the application?
 - Does the team have access to the necessary tools and development environment to support the chosen solution (PWA or Mobile)?
 
 Procuring custom code vs. internal development
