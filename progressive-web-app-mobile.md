@@ -38,7 +38,8 @@ Key elements to consider:
 - How will the end users use the application if they don't possess a mobile device?
 - Does the current staff have the necessary knowledge to develop the application?
 - Does the team have access to the necessary tools and development environment to support the chosen solution (PWA or Mobile)?
-P
+- Does the organization currently has the capacity to manage more than one code base?
+
 Procuring custom code vs. internal development
 
 - While the development of the application by a third party may seem faster, the end-to-end duration of procurement processes and the rigidity of properly framing the requirements ahead of time may lead to extra delays.
