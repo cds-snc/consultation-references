@@ -5,28 +5,40 @@ ref: pwa-mobile
 ---
 ## Context
 
-This document is to identify key considerations when the choice to develop an application for mobile devices is narrowed down between:
+TODO: Extend context to include web presence for users without a mobile device.
+It is more about clarifying if a Device-Based Mobile Application is required.
 
-- A device-based mobile application
+This document is to identify key considerations a product team has to consider when developing an application for which end users will need to be able to use on a mobile devices, not just a desktop.
+
+The two main scenarios to consider are:
+
+- A device-based mobile application with a web application for desktop users
 - A progressive web application (PWA)
+
+A third scenario is often discussed but it excludes any users that do not possess a modern mobile device, which is by default not inclusive and thus not aligned with the digital standards:
+
+- A device-based mobile application, without a web application for desktop users
 
 ## Definitions
 
-Progressive web application: A web application accessed and used via a web browser, leveraging modern browsers functionalities to offer the user a similar experience as a device based mobile application.
+**Responsive web application**: A web application that is designed to respond to all sizes and types of devices, such as a large desktop screen, a mid-sized tablet or a smartphone.
 
-Device based mobile application: A dedicated software that is accessed and used directly on a mobile device operating system.
+**Progressive web application**: A web application accessed and used via a web browser, leveraging modern browsers functionalities to offer the user a similar experience as a device based mobile application.
+
+**Device based mobile application**: A dedicated software that is accessed and used directly on a mobile device operating system.
 
 ## Considerations
 
 Key elements to consider:
 
-- Will the user need to be able to use the application while being offline intermitently?
+- Will the user need to be able to use the application while being offline intermittently?
 - Will the user need to be able to use the application while being offline for an extended period?
 - Will the user need to be able to exchange information with the service provider when using via the application?
 - Will the application require the use of a lot of graphics or storage space?
+- How will the end users use the application if they don't possess a mobile device?
 - Does the current staff have the necessary knowledge to develop the application?
 - Does the team have access to the necessary tools and development environment to support the chosen solution (PWA or Mobile)?
-
+P
 Procuring custom code vs. internal development
 
 - While the development of the application by a third party may seem faster, the end-to-end duration of procurement processes and the rigidity of properly framing the requirements ahead of time may lead to extra delays.
@@ -42,7 +54,6 @@ Device-based mobile applications
 - Mobile applications have to be published on curated application stores which are outside the control of the Government of Canada, adding a layer of uncertainty and possibly introducing unexpected delays.
 - On the other hand, a device-based mobile application can use all the hardware features offered by the mobile device operating system which is not the case for a PWA since it is limited to the browser’s features instead. This still allows for a very rich user experience if properly designed.
 
-
 ### User Experience
 
 ||PWA|Mobile|
@@ -50,7 +61,7 @@ Device-based mobile applications
 |Acquiring the app|Visit the website|Find in application catalogue|
 |Installing the app|Add to home screen|Purchase* and download|
 |Using the installed app|Click on the icon|Click on the icon|
-|Uninstalling|Delete the icon|Delete the applicaton from the menu|
+|Uninstalling|Delete the icon|Delete the application from the menu|
 
 *Purchase: if required
 
@@ -74,14 +85,14 @@ Consideration should also be taken with regards to the development specificities
 |Development Environment Operating System|Can be developed on all major operating systems<ul><li>Windows</li><li>macOS</li><li>Linux</li></ul>|Mobile operating system specific:<ul><li>iOS: macOS only<li>Android: all major operating systems<ul><li>Windows</li><li>macOS</li><li>Linux</li></ul></ul>|
 
 - Programming languages
-  - Web app or PWA can be built with programming languages supported by most modern browsers. A single code base could sufficient to offer the application to all mobile users, in line with the TBS Standard with regards to marketshare of platforms.
+  - Web app or PWA can be built with programming languages supported by most modern browsers. A single code base could sufficient to offer the application to all mobile users, in line with the TBS Standard with regards to market share of platforms.
   - Mobile apps require device specific compatible programming languages meaning that at least two separate code base would be needed to support the two major operating systems (iOS and Android)
 - Development environments
-  - iOS mobile applications requires the use of Mac computer with the latest version of Xcode. Mac computers are not currently supported by default on the Government of Canada network and usually are operated independantly.
+  - iOS mobile applications requires the use of Mac computer with the latest version of Xcode. Mac computers are not currently supported by default on the Government of Canada network and usually are operated independently.
   - Web apps and PWA can be developed on all major desktop operating systems, including Windows, macOS and most Linux distributions.
 - Toolchain
-  - Web applications, PWA, and mobile device applications all support the use of various tools to improve development practices such as frameworks, software dependency libraries and package management, 
-- Skillset
+  - Web applications, PWA, and mobile device applications all support the use of various tools to improve development practices such as frameworks, software dependency libraries and package management,
+- Skill set
   - The programming languages, development frameworks and available dependencies being different, it may not be possible to easily transfer the knowledge of software development teams from web to mobile, or at least not do so without a loss in productivity.
 
 ### Release and Update
@@ -93,7 +104,9 @@ Consideration should also be taken with regards to the development specificities
 
 ### Maintenance
 
-- 
+- Number of code base to maintain
+- Number of dependencies to monitor
+- Number of frameworks and languages to learn (if new to the team)
 
 ### User
 
